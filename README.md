@@ -21,14 +21,14 @@ BizChat is a modern and feature-rich real-time chat application developed using 
 ## Screenshots
 
 ![Screenshot 1](./demo/clintinit.png)
-*Caption for Screenshot 1*
+*Caption for Screenshot 1 : Integration with existing website*
 
 ![Screenshot 2](./demo/webinit.png)
-*Caption for Screenshot 2*
+*Caption for Screenshot 2: Integration with existing website on client premises*
 
 ## Video Demonstration
 
-[![BizChat Demo Video](./video-thumbnail.png)](https://www.youtube.com/watch?v=your_video_id)
+[![BizChat Demo Video](./demo/pic.png)](https://youtu.be/oxcHYO6R3oo?feature=shared)
 *Click the image above to watch the demonstration video.*
 
 ## Demo Flow Diagram (DFD)
