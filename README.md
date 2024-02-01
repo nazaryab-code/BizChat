@@ -1,4 +1,3 @@
-```markdown
 # BizChat: Real-Time Chat Application
 
 ![BizChat Logo](./screenshots/bizchat-logo.png)
