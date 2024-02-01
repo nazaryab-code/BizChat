@@ -1,6 +1,6 @@
-# BizChat: Real-Time Chat Application
+# <img src="./client/public/bizchat.png" alt="BizChat Logo" width="40" height="40"> BizChat: Real-Time Chat Application
 
-<img src="./client/public/bizchat.png" alt="BizChat Logo" width="40" height="40">
+
 
 BizChat is a modern and feature-rich real-time chat application developed using React for the frontend, Socket.io for real-time communication, and a Node.js server with MongoDB for database storage. It is designed to facilitate seamless communication between clients and support teams.
 
