@@ -77,9 +77,37 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Note:** Replace placeholder content (like `your-username`, `your_video_id`, and filenames) with your actual information.
+**Note:** This application was build using React 10.2.5 and Node 16.16.0.
 
-Feel free to customize the README further to meet the specific details and nuances of your application.
 ```
 
-Replace the placeholder content (like `your-username`, `your_video_id`, and filenames) with your actual information. Additionally, make sure to include actual image files for the screenshots, video thumbnail, BizChat logo, and DFD image in the appropriate paths.
+npm version
+
+```
+**Remark:** Run the above command in CMD to verify before proceed, if any conflict arises please use nvm.
+```
+npm WARN cli npm v10.2.5 does not support Node.js v16.16.0. This version of npm supports the following node versions: `^18.17.0 || >=20.5.0`. You can find the latest version at https://nodejs.org/.
+{
+  npm: '10.2.5',
+  node: '16.16.0',
+  v8: '9.4.146.24-node.21',
+  uv: '1.43.0',
+  zlib: '1.2.11',
+  brotli: '1.0.9',
+  ares: '1.18.1',
+  modules: '93',
+  nghttp2: '1.47.0',
+  napi: '8',
+  llhttp: '6.0.7',
+  openssl: '1.1.1q+quic',
+  cldr: '40.0',
+  icu: '70.1',
+  tz: '2021a3',
+  unicode: '14.0',
+  ngtcp2: '0.1.0-DEV',
+  nghttp3: '0.1.0-DEV'
+}
+```
+Feel free to customize the BizChat further to meet the specific details and nuances of your application.
+
+- *Yogesh Jha*
