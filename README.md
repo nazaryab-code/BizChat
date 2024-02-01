@@ -28,7 +28,12 @@ BizChat is a modern and feature-rich real-time chat application developed using 
 
 ## Video Demonstration
 
-[![BizChat Demo Video](./demo/pic.png)](https://youtu.be/oxcHYO6R3oo?feature=shared)
+<div style="text-align: center;">
+
+ <a href="https://youtu.be/oxcHYO6R3oo?feature=shared"> <img src="./demo/pic.png" alt="Yogesh Jha -Demo video" width="350" height="200"><a/>
+
+</div>
+
 *Click the image above to watch the demonstration video.*
 
 ## Demo Flow Diagram (DFD)
