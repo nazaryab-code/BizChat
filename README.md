@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 
-  <img src="./demo/yogesh.jpg" alt="Yogesh Jha" width="40" height="60" style="border-radius: 50%; border: 2px solid #3498db; box-shadow: 0 0 5px #3498db;">
+  <img src="./demo/yogesh.jpg" alt="Yogesh Jha" width="40" height="50" style="border-radius: 50%; border: 2px solid #3498db; box-shadow: 0 0 5px #3498db;">
 
 </div>
 
