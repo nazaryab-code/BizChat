@@ -20,7 +20,64 @@ Welcome to BizChat! We appreciate your interest in contributing to our project. 
 
 ## Code of Conduct
 
-Please note that this project follows our [Code of Conduct](./CODE_OF_CONDUCT.md). Make sure to read and adhere to it throughout your contribution.
+Please note that this project follows our Code of Conduct. Make sure to read and adhere to it throughout your contribution.
+
+### Overview
+
+BizChat is an open and inclusive community where everyone is welcome. We value and respect each other's opinions and contributions. To maintain a positive and collaborative environment, we have established this Code of Conduct that applies to all contributors, maintainers, and users of BizChat.
+
+### Our Standards
+
+Please adhere to the following standards when participating in the BizChat community:
+
+#### 1. Be Inclusive
+
+- Respect diverse perspectives and experiences.
+- Welcome newcomers and help them feel included.
+- Avoid any language or actions that may be discriminatory, offensive, or harmful.
+
+#### 2. Be Respectful
+
+- Treat others with kindness and consideration.
+- Refrain from personal attacks or insults.
+- Provide constructive feedback and critique.
+
+#### 3. Be Collaborative
+
+- Work together towards common goals.
+- Encourage a positive and supportive atmosphere.
+- Help others succeed and grow in their contributions.
+
+#### 4. Be Open-Minded
+
+- Embrace different ideas and viewpoints.
+- Be willing to learn from others.
+- Accept constructive criticism with grace.
+
+#### 5. Be Professional
+
+- Conduct yourself professionally at all times.
+- Avoid inappropriate language or behavior.
+- Refrain from harassment, including unwelcome comments or conduct.
+
+### Reporting Violations
+
+If you witness or experience behavior that violates this Code of Conduct, please report it to the project maintainers at [conduct@bizchat.com](mailto:conduct@bizchat.com).
+
+All reports will be kept confidential. The maintainers will review each case and take appropriate action as necessary.
+
+### Enforcement
+
+Violations of the Code of Conduct may result in consequences, including but not limited to warnings, temporary or permanent bans from the community, and other actions deemed necessary.
+
+By participating in the BizChat community, you agree to abide by this Code of Conduct.
+
+### Attribution
+
+This Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
+
+BizChat is dedicated to providing a safe and welcoming environment for all contributors.
+
 
 ## How Can I Contribute?
 
