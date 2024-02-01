@@ -90,6 +90,5 @@ When reporting issues, provide a clear and detailed description. Include steps t
 ## Contact
 
 If you have any questions or need further clarification, feel free to contact us at [yogeshjha0707@bizency.com](mailto:yogeshjha0707@bizency.com).
-```
 
-Feel free to customize this template based on the specific requirements and conventions of your project. Additionally, create any referenced documents (e.g., CODE_OF_CONDUCT.md, CODING_STANDARDS.md, COMMIT_MESSAGES.md) with relevant content.
+
