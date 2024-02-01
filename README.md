@@ -6,7 +6,7 @@
 
 </div>
 
-BizChat is a modern and feature-rich real-time chat application developed using React for the frontend, Socket.io for real-time communication, and a Node.js server with MongoDB for database storage. It is designed to facilitate seamless communication between clients and support teams.
+Hi, I'am Yogesh Jha [Full Stack Dev @ Bzency] BizChat is a modern and feature-rich real-time chat application developed using React for the frontend, Socket.io for real-time communication, and a Node.js server with MongoDB for database storage. It is designed to facilitate seamless communication between clients and support teams.
 
 
 BizChat is a modern and feature-rich real-time chat application developed using React for the frontend, Socket.io for real-time communication, and a Node.js server with MongoDB for database storage. It is designed to facilitate seamless communication between clients and support teams.
@@ -20,10 +20,10 @@ BizChat is a modern and feature-rich real-time chat application developed using 
 
 ## Screenshots
 
-![Screenshot 1](./screenshots/screenshot1.png)
+![Screenshot 1](./demo/clintinit.png)
 *Caption for Screenshot 1*
 
-![Screenshot 2](./screenshots/screenshot2.png)
+![Screenshot 2](./demo/webinit.png)
 *Caption for Screenshot 2*
 
 ## Video Demonstration
@@ -33,7 +33,7 @@ BizChat is a modern and feature-rich real-time chat application developed using 
 
 ## Demo Flow Diagram (DFD)
 
-![DFD](./dfd-image.png)
+![DFD](./demo/dfd.png)
 *Data Flow Diagram illustrating the application's architecture.*
 
 ## Installation
