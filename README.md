@@ -69,7 +69,7 @@ Visit `http://localhost:3000` in your browser to access the application.
 
 ## Contribution
 
-We welcome contributions! If you'd like to contribute to BizChat, please follow our [contribution guidelines](guideline).
+We welcome contributions! If you'd like to contribute to BizChat, please follow our [contribution guidelines](guideline.md).
 
 ## License
 
