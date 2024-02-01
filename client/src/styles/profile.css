@@ -1,0 +1,180 @@
+/* UserProfile.css */
+
+.profile-card {
+  position: relative;
+  width: 316px; /* Set a fixed width for the user profile */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden; /* Hide horizontal overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f6f9fc;
+  display: flex;
+  flex-direction: column;
+  height: 475px; /* Make the card take 100% height of its container */
+
+  @media (max-width: 600px) {
+    /* Styles for small screens (mobile) */
+    display: none; /* Hide the user profile on small screens */
+  }
+
+  @media (min-width: 601px) and (max-width: 992px) {
+    /* Styles for medium screens (tablet) */
+    width: 100%; /* Adjust the width for tablets */
+    height: 475px; /* Allow the height to adjust based on content */
+    font-size: smaller; /* Adjust font size for tablet screens */
+    /* You may need to adjust other styles like padding here */
+  }
+
+  @media (min-width: 993px) {
+    /* Styles for larger screens */
+    width: 100%; /* Adjust the width for larger screens */
+    height: 475px; /* Allow the height to adjust based on content */
+    font-size: initial; /* Reset font size for larger screens */
+    /* You may need to adjust other styles like padding here */
+  }
+}
+.scrollable-content {
+  overflow-y: auto;
+  max-height: calc(100% - 60px); /* Adjust as needed, considering other elements' heights */
+}
+
+/* Modern and thin scrollbar styles */
+.scrollable-content::-webkit-scrollbar {
+  width: 5px;
+  height: 6px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background-color: #c1d8f0; /* Scrollbar thumb color */
+  border-radius: 4px;
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background-color: #f6f9fc; /* Scrollbar track color */
+  border-radius: 6px;
+}
+  
+  .profile-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #c1d8f0; /* Profile cover color */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .profile-image-container {
+    position: relative;
+    width: 100%;
+    margin-top: 50px; /* Adjust based on your design */
+  }
+  
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    background-color: #fff; /* Profile image background color */
+    border: 3px solid #d2deeb; /* Profile image border color */
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .profile-name {
+    color: #00b8ff; /* Profile name color */
+    text-align: center;
+    text-transform: capitalize; /* Capitalize each word */
+    font-size: large;
+    font-weight: 400;
+  }
+  
+  /* UserProfile.css */
+  
+  .profile-details {
+    overflow-y: auto; /* Enable vertical scrolling */
+    flex: 1; /* Allow it to take remaining space */
+    margin-top: 0; /* Remove the top margin */
+  }
+  
+  .profile-details td {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px 0;
+  }
+  
+  .profile-details table {
+    width: 100%;
+  }
+  
+  .profile-footer {
+    padding: 10px;
+    text-align: center; /* Center the button */
+    margin-top: auto; /* Push the footer to the bottom */
+    justify-content: space-between; /* Distribute space evenly between child elements */
+    gap: 10px; /* Adjust the gap as needed */
+  }
+  
+  .profile-footer hr {
+    border: 1px solid #ddd;
+  }
+  
+  .profile-footer button {
+    background-color: #4663ac; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 5px 10px;
+    margin: 0 5px; /* Adjust the margin as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+  }
+
+  .full-width-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; /* Add margin as needed */
+  }
+  
+  .full-width-table th,
+  .full-width-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  #heading{
+    width: 100%;
+    padding: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    font-size: large;
+    border-radius: 8px;
+    background-color: #c8ebf8;
+  }

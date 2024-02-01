@@ -1,0 +1,146 @@
+/* NoteModal.css */
+
+.modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    background-color: #acc7f1;
+  }
+  
+.modal-content {
+  background-color: #acc7f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  border: 2px solid #3273dc;
+  max-height: 600px; /* Set the maximum height for scrollable content */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin; /* Set the width of the scrollbar to thin (for Firefox) */
+  scrollbar-color: #3273dc #acc7f1; /* Set the color of the scrollbar track and handle */
+  cursor: pointer;
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+.modal-content::-webkit-scrollbar {
+  width: 6px; /* Set the width of the scrollbar */
+  
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: #b0c8f0; /* Set the color of the scrollbar track */
+  border-radius: 6px; /* Set the border-radius of the scrollbar handle */
+  
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background-color: #9aa3af; /* Set the color of the scrollbar handle */
+  border-radius: 10px; /* Set the border-radius of the scrollbar track */
+}
+
+  
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #4663ac;
+  }
+  
+/* NoteModal.css */
+
+/* ... (previous styles) */
+
+#textarea1 {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: thin; /* Set the width of the scrollbar to thin (for Firefox) */
+    scrollbar-color: #3273dc #acc7f1; /* Set the color of the scrollbar track and handle */
+  }
+  /* For Webkit browsers (Chrome, Safari) */
+  #textarea1::-webkit-scrollbar {
+  width: 6px; /* Set the width of the scrollbar */
+  
+}
+
+#textarea1::-webkit-scrollbar-thumb {
+  background-color: #417bdf; /* Set the color of the scrollbar track */
+  border-radius: 6px; /* Set the border-radius of the scrollbar handle */
+  
+}
+
+#textarea1::-webkit-scrollbar-track {
+    background-color: #a9b8ca; /* Set the color of the scrollbar handle */
+  border-radius: 10px; /* Set the border-radius of the scrollbar track */
+}
+  
+  /* ... (remaining styles) */
+  
+  
+  button.save-button {
+    background-color: #3273dc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  hr.divider {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #4663ac;
+  }
+  
+  label.search-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    text-shadow: #4663ac;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .search-area{
+    background-color: #acc7f1;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #3273dc;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #3273dc;
+    border-radius: 5px;
+  }
+  
+  ul.note-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #4663ac;
+  }
+  
+  ul.note-list li {
+    margin-bottom: 5px;
+  }
+  /* NoteModal.css */
+
+/* ... (previous styles) */
+
+#close {
+    color: #4663ac;
+  }
+  
+  /* ... (remaining styles) */
+  

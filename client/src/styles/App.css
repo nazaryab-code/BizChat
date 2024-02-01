@@ -1,0 +1,520 @@
+body {
+  background-color: #FFFFFF;
+}
+
+#bcg {
+  background-color: #FBF1E6;
+}
+
+header {
+  background-color: #4663ac !important;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+footer {
+  background-color: #4663ac !important;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+textarea {
+  resize: none !important;
+  border: none !important;
+}
+
+#hero {
+  background-color: #ffffff;
+  /* Set your background color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.messagelist {
+  padding: 0px 5px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.messageform {
+  border-top: 1px solid #DDD;
+}
+
+.text {
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+  margin-bottom: 5px;
+  word-break: break-all;
+  white-space: pre-line;
+}
+
+.secondary .text {
+  background-color: #ffffff;
+  border: 1px solid #DDDDDD;
+}
+
+.primary .text {
+  background-color: #A5F1B3;
+  border: 1px solid #A5F1B3;
+}
+
+aside {
+  border-left: 1px solid #DDD;
+}
+
+.emoji-wrapper button {
+  position: relative;
+}
+
+.popover {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 0%;
+  bottom: 18%;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  min-width: 200px;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+.emoji-wrapper:hover .popover {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+}
+
+#activeUsersList {
+  max-height: 400px; /* Set a fixed height for the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px; /* Adjust as needed for spacing */
+  margin-left: 0%;
+  border-color: #4663ac;
+}
+.user-card {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  padding: 5px;
+  margin: 0%;
+  text-align: left; /* Align text to the left */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  cursor: pointer;
+}
+
+.user-card:hover {
+  background-color: #c1d8f0; /* Change to your preferred hover color */
+  border-color: #4663ac;
+}
+
+.user-name {
+  margin: 0; /* Reset margin for the paragraph */
+  font-size: medium;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #4663ac;
+  text-transform: capitalize; /* Capitalize each word */
+}
+
+.user-message {
+  text-align: left; /* Align the message text to the left */
+  margin: 0; /* Reset margin for the paragraph */
+  white-space: pre-line;
+  font-size: smaller;
+}
+
+.scrollable-content {
+  overflow-y: auto;
+  max-height: calc(100% - 60px); /* Adjust as needed, considering other elements' heights */
+}
+
+/* Modern and thin scrollbar styles */
+.scrollable-content::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; /* Adjusted height for a thinner scrollbar */
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background-color: #c1d8f0; /* Scrollbar thumb color */
+  border-radius: 4px;
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background-color: #f6f9fc; /* Scrollbar track color */
+  border-radius: 6px;
+}
+
+
+
+
+
+/* Add these styles to position the buttons vertically */
+.column.is-2-mobile.is-1-tablet.is-paddingless {
+  display: flex;
+  flex-direction: column-reverse; /* Display buttons in reverse order */
+}
+
+.button.is-medium.is-paddingless.is-white {
+  margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+/* Update these styles to position the dropdown options */
+.dropdown-options {
+  position: absolute;
+  top: 140px; /* Position dropdown below the button */
+  right: 200px;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #c1d8f0;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for multiple rows */
+  width: 320px; /* Set a specific width for the dropdown */
+}
+/* Media query for tablet view */
+@media (max-width: 768px) {
+  .dropdown-options {
+    right: 50%; /* Center the dropdown horizontally */
+    transform: translateX(50%);
+  }
+}
+
+/* Media query for mobile view */
+@media (max-width: 480px) {
+  .dropdown-options {
+    right: 50%; /* Center the dropdown horizontally */
+    transform: translateX(50%);
+  }
+}
+.options-group {
+  display: flex;
+  flex-direction: column;
+  width: 50%; /* Set half of the width for each group */
+}
+
+.dropdown-option {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-grow: 1; /* Allow options to expand and fill the container */
+  box-sizing: border-box; /* Include padding in width calculation */
+  text-align: left; /* Center the text within each option */
+}
+
+.dropdown-option:hover {
+  background-color: #c1d8f0; /* Change to your preferred hover color */
+  text-shadow: #DDD;
+  color: #4663ac;
+}
+
+
+
+
+
+
+/* LoginForm.css */
+
+.login-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .field {
+  margin-bottom: 1rem;
+}
+
+.login-form label {
+  font-weight: bold;
+}
+
+.login-form .button {
+  transition: background-color 0.3s ease;
+}
+
+.login-form .button:hover {
+  background-color: #3273dc;
+}
+
+/* Original styles for the switch */
+.containerswitch {
+  position: relative;
+  bottom: -30px;
+  left: -50%; /* Adjusted for centering */
+  height: 40px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/** Switch
+ -------------------------------------*/
+
+.switch input {
+  position: absolute;
+  opacity: 0;
+}
+
+/**
+ * 1. Adjust this to size
+ */
+
+.switch {
+  display: inline-block;
+  font-size: 15px; /* 1 */
+  height: 1em;
+  width: 2em;
+  background: #acc7f1;
+  border-radius: 1em;
+}
+
+.switch div {
+  height: 1em;
+  width: 1em;
+  border-radius: 1em;
+  background: #fff;
+  box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+  transition: all 300ms;
+}
+
+.switch input:checked + div {
+  transform: translate3d(100%, 0, 0);
+  background: #3273dc;
+}
+
+/* Adjusted styles for screens with width between 760px and desktop view */
+@media (min-width: 760px) {
+  .containerswitch {
+    bottom: -30px; /* Adjusted for consistency */
+    left: -46%; /* Centered */
+  }
+}
+
+/* Hide the switch on screens with a maximum width of 767px (typical mobile screens) */
+@media (max-width: 767px) {
+  .containerswitch {
+    display: none;
+  }
+}
+
+
+.robot {
+  position: absolute;
+  display: none;
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.containerswitch:hover .robot {
+  display: block;
+  position: absolute;
+  bottom: 125%; /* Adjust this value to control the distance from the switch */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Optional: Add a subtle transition effect for a smoother appearance */
+.robot {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+/* Add these styles to your existing CSS or create a new CSS file */
+
+.button-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  display: none;
+  background-color: rgba(52, 58, 64, 0.8); /* Use rgba for transparency */
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  white-space: nowrap;
+  z-index: 1; /* Set z-index to position the tooltip in front of other elements */
+}
+
+.button-tooltip:hover .tooltip {
+  display: block;
+  position: absolute;
+  bottom: 125%; /* Adjust this value to control the distance from the button */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Optional: Add a subtle transition effect for a smoother appearance */
+.tooltip {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.tooltip.fade-out {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Add these styles to your CSS file or style tag */
+
+.modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.noteinput{
+  padding: 10px;
+  padding-bottom: 2opx;
+  border-radius: 5px;
+  border: 2px solid #3273dc;
+}
+
+
+
+
+
+
+/* styles/NoteModel.css alert */
+.alert {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.error {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.close-alert {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-alert:hover {
+  color: #000;
+}
+.table-cell-ellipsis {
+  max-width: 150px; /* Set your desired max width */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+/* Add this to your CSS file or styles section */
+.table-cell-ellipsis:hover {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  z-index: 1;
+  position: relative;
+}
+
+/* Add this CSS to your existing stylesheet or create a new one */
+
+.user-message.tool1 {
+  white-space: nowrap;  
+  overflow: hidden;         
+  text-overflow: ellipsis;  
+  min-width: 60px;  
+  max-width: 130px;       
+  position: relative;       
+  cursor: pointer;        
+}
+
+/* .user-card:hover .user-message.tool1 {
+  content: attr(title);    
+  position: absolute;
+  background-color: #333;  
+  color: #fff;          
+  padding: 5px;           
+  border-radius: 5px;       
+  z-index: 1;               
+  white-space: normal;     
+  word-wrap: break-word;   
+  max-width: 200px;        
+  left: 94%;               
+  transform: translateX(-60%);
+  bottom: 74%;             
+} */
+
+/* search note model */
+/* Add the following styles for the table */
+.search-results table{
+  background-color: #fff;
+  color: #3273dc;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+.search-results th, .search-results td {
+  border: 1px solid #3273dc;
+  padding: 8px;
+  text-align: left;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "yschat-server",
+  "version": "0.1.1",
+  "description": "ysChat server developed with Express.js and Socket.IO.",
+  "author": {
+    "name": "Yogesh Jha",
+    "email": "developer4@mail.com",
+    "url": "https://www.bizency.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nazaryab-code/Chat-React/blob/main/LICENSE"
+  },
+  "keywords": [
+    "websocket-server",
+    "websocket-application",
+    "websocket-chat",
+    "chat-server",
+    "socketio-server",
+    "socketio-chat"
+  ],
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.2",
+    "bson": "^4.0.3",
+    "cookie-parser": "~1.4.6",
+    "cors": "^2.8.5",
+    "debug": "~4.3.4",
+    "express": "~4.18.2",
+    "http-errors": "~2.0.0",
+    "mongodb": "^4.17.2",
+    "morgan": "~1.10.0",
+    "pug": "~3.0.2",
+    "react-bootstrap": "^2.10.0",
+    "socket.io": "~4.6.1"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  }
+}
